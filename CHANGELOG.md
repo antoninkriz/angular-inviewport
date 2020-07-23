@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.3.1](https://github.com/antoninkriz/angular-inviewport/compare/v4.3.0...v4.3.1) (2020-07-23)
+
+
+### Bug Fixes
+
+* **versionbump:** bump ([3654c13](https://github.com/antoninkriz/angular-inviewport/commit/3654c13e247877d744e44040fbf33b7b170aac76))
+
 ## [4.3.0](https://github.com/antoninkriz/angular-inviewport/compare/v4.2.2...v4.3.0) (2020-07-23)
 
 
