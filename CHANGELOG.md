@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.3.0"></a>
+# [4.3.0](https://github.com/thisissoon/angular-inviewport/compare/v4.2.2...v4.3.0) (2020-07-23)
+
+### Bug Fixes
+
+* **InViewport:** Added support for Angular >=9
+
+### BREAKING CHANGES
+
+* **InViewport:** Removed support for Angular <9
+
+
 <a name="4.2.2"></a>
 ## [4.2.2](https://github.com/thisissoon/angular-inviewport/compare/v4.2.1...v4.2.2) (2020-02-03)
 

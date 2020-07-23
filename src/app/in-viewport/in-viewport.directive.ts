@@ -8,9 +8,9 @@ import {
   AfterViewInit,
   Inject,
   Input,
-  OnInit
+  OnInit,
 } from '@angular/core';
-import { WINDOW } from '../window/window-token';
+import { WINDOW } from '../..';
 
 /**
  * A simple lightweight library for Angular with that detects when an
@@ -30,7 +30,7 @@ import { WINDOW } from '../window/window-token';
 // @dynamic
 @Directive({
   selector: '[snInViewport]',
-  exportAs: 'snInViewport'
+  exportAs: 'snInViewport',
 })
 export class InViewportDirective implements AfterViewInit, OnDestroy, OnInit {
   private inViewport: boolean;
@@ -81,7 +81,7 @@ export class InViewportDirective implements AfterViewInit, OnDestroy, OnInit {
   }
 
   intersectionObserverCallback(entries: IntersectionObserverEntry[]) {
-    entries.forEach(entry => {
+    entries.forEach((entry) => {
       if (this.inViewport === entry.isIntersecting) return;
       this.inViewport = entry.isIntersecting;
       this.inViewportChange.emit(this.inViewport);
@@ -107,9 +107,9 @@ export class InViewportDirective implements AfterViewInit, OnDestroy, OnInit {
           this.window['IntersectionObserverEntry']['prototype'],
           'isIntersecting',
           {
-            get: function() {
+            get: function () {
               return this.intersectionRatio > 0;
-            }
+            },
           }
         );
       }

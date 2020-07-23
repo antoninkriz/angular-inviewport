@@ -29,40 +29,14 @@ export const WINDOW_MOCK_WITHOUT_INTERSECTION_OBSERVER = {
   self: null,
   status: null,
   top: null,
-  addEventListener: (...args) => null,
-  alert: (...args) => null,
-  atob: (...args) => null,
-  blur: (...args) => null,
-  btoa: (...args) => null,
-  clearInterval: (...args) => null,
-  clearTimeout: (...args) => null,
-  close: (...args) => null,
-  confirm: (...args) => null,
-  focus: (...args) => null,
-  getComputedStyle: (...args) => null,
-  getSelection: (...args) => null,
-  matchMedia: (...args) => null,
-  moveBy: (...args) => null,
-  moveTo: (...args) => null,
-  open: (...args) => null,
-  print: (...args) => null,
-  prompt: (...args) => null,
-  resizeBy: (...args) => null,
-  resizeTo: (...args) => null,
-  removeEventListener: (...args) => null,
-  scroll: (...args) => null,
-  scrollBy: (...args) => null,
-  scrollTo: (...args) => null,
-  setInterval: (...args) => null,
-  setTimeout: (...args) => null,
-  stop: (...args) => null
+  print: (..._) => null,
 };
 
 export const WINDOW_MOCK = {
   ...WINDOW_MOCK_WITHOUT_INTERSECTION_OBSERVER,
-  IntersectionObserver: function(...args) {
+  IntersectionObserver: function (..._) {
     this.observe = () => null;
     this.unobserve = () => null;
   },
-  IntersectionObserverEntry: class IntersectionObserverEntryMock {}
+  IntersectionObserverEntry: class IntersectionObserverEntryMock {},
 };

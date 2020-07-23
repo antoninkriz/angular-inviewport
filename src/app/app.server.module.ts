@@ -11,8 +11,8 @@ import { InViewportModule } from './in-viewport';
     AppModule,
     ServerModule,
     InViewportModule.forServer(),
-    ModuleMapLoaderModule
+    ModuleMapLoaderModule,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppServerModule {}
