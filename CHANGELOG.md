@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [4.3.0](https://github.com/antoninkriz/angular-inviewport/compare/v4.2.2...v4.3.0) (2020-07-23)
+
+
+### Features
+
+* **added angular 9+ support:** added angular 9+ support ([75631bf](https://github.com/antoninkriz/angular-inviewport/commit/75631bf9ed0d75b8f340cb5dc334a1cc0dc467fb))
 
 <a name="4.3.0"></a>
 # [4.3.0](https://github.com/thisissoon/angular-inviewport/compare/v4.2.2...v4.3.0) (2020-07-23)
