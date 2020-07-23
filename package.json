@@ -12,12 +12,12 @@
     "ngx-inviewport",
     "ngx-in-viewport"
   ],
-  "author": "SOON_ <dorks@thisissoon.com>",
+  "author": "Antonín Kříž <15214494+antoninkriz@users.noreply.github.com>",
   "contributors": [
+    "SOON_ <dorks@thisissoon.com>",
     "Ed Opare-Aryee <ed@thisissoon.com>",
     "Jack matthews <jack@thisissoon.com>",
-    "Sergey Krilov <serg.kr@gmail.com>",
-    "Antonín Kříž <15214494+antoninkriz@users.noreply.github.com>"
+    "Sergey Krilov <serg.kr@gmail.com>"
   ],
   "license": "MIT",
   "repository": {
